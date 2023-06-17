@@ -1,10 +1,13 @@
-const { UserList } = require('../fakeData');
+const { UserList } = require('../FakeData');
 
 const resolvers = {
 	Query: {
 		users() {
 			return UserList;
 		},
+		user(_, args) {
+		
+		}
 	},
 };
 
