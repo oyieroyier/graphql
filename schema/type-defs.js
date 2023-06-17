@@ -32,7 +32,7 @@ typeDefs = gql`
 		nationality: Nationality = KENYA
 	}
 
-	input UpdateUsernameInput{
+	input UpdateUsernameInput {
 		id: ID!
 		newUsername: String!
 	}
@@ -40,6 +40,7 @@ typeDefs = gql`
 	type Mutation {
 		createUser(input: CreateUserInput!): User
 		updateUsername(input: UpdateUsernameInput!): User
+		deleteUser(id: ID): User
 	}
 
 	enum Nationality {
