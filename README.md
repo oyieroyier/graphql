@@ -4,7 +4,7 @@ Mastering the fundamentals of querying and mutations on GraphQL using Apollo Cli
 
 ### Queries run on Apollo Client:
 
-![GQL](./gql.png)
+![GQL](./server/gql.png)
 
 ```graphql
 query GetAllUsers {
